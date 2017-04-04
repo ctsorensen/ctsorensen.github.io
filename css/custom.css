@@ -1,0 +1,83 @@
+/* First, pull in Bootstrap */
+@import url(bootstrap-4.0.0-alpha.5-dist/css/bootstrap-flex.min.css);
+<style>
+
+.right, .left{
+    overflow: hidden;
+    overflow-y:scroll;
+    
+}
+
+
+.carousel-control-prev{
+    color: black;
+}
+
+.carousel-control-next-icon{
+    color: black;
+}
+
+.img-fluid{
+    margin:0 auto;
+}
+
+.projectLink{
+    
+}
+
+.project {
+    
+}
+
+#project1{
+    
+}
+
+#project2{
+    
+}
+
+#project3{
+    
+}
+
+/* parallax section */
+#section1{
+    z-index:1;
+    color: #fff;
+    height: 100vh;
+}
+/* parallax background*/
+#section1 .parallax-layer-back {
+    background: url("exquisite.jpeg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* section w/dummy content*/
+#section2 {
+    z-index: 2;
+    position: relative;
+    background: #fff;
+    width:100%;
+}
+
+h1{
+    color: cadetblue;
+}
+
+/* cadetblue for clicked links?*/
+
+/* turn off parallax scrolling for tablets and phones, adjust pixels as needed 
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+body, html {
+    height:100%;
+}
+*/
+</style>
