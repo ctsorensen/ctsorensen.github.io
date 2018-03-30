@@ -1,5 +1,5 @@
 /* First, pull in Bootstrap */
-@import url(bootstrap-4.0.0-alpha.5-dist/css/bootstrap-flex.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
 <style>
 
 
@@ -31,6 +31,7 @@
     background-color: white;
     text-decoration-color: #1DA1F2;
     border: none;
+    text-decoration
 }
 
 #aboutNavbar{
@@ -68,7 +69,8 @@
 
 
 #mePreview{
-    background-color:coral; /*or cornflowerblue, or lightcoral*/
+    background-color:coral;
+/*or cornflowerblue, or lightcoral*/
 }
 #mePreview h1{
     font-family: IBMPlexSans;
@@ -77,6 +79,9 @@
     font-weight:bold;
     text-decoration: underline;
     text-decoration-color: #1C57AD;
+    -webkit-text-decoration-color: #1C57AD;
+    -moz-text-decoration: underline #1C57AD;
+
 }
 #mePreview h2{
     font-family: IBMPlexSans;   
@@ -98,16 +103,23 @@
 #exquisitePreview h1{
     font-family: IBMPlexSans;
     font-size:4.0vw;
-    color:black
+    color:black;
+    text-decoration-color: red;
+    -moz-text-decoration-color: red;
 }
 #exquisitePreview h2{
     font-size: 2.0vw;
     color: black;
-    
+    -webkit-text-decoration-color: red;
+    text-decoration-color: red;
+    -moz-text-decoration:  red;
 }
 #exquisitePreview h3{
     font-size:1.5vw;
     color: black;
+    -webkit-text-decoration-color: red;
+    -moz-text-decoration-color: red;
+    
 }
 
 
@@ -118,19 +130,20 @@
     font-family: IBMPlexSans;
     font-size:4.0vw;
     color: white;
-    text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration: underline white;
 }
 #philanthrobotPreview h2{
     font-family: IBMPlexSans;
     font-size: 2.0vw;
     color: white;
+    text-decoration: underline white;
 }
 
 #philanthrobotPreview h3{
     font-family: IBMPlexSans;
     font-size: 1.5vw;
     color: white;
+    text-decoration-color: red;
 }
 
 .philanthrobot h1 .philanthrobot h2 {
