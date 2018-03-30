@@ -2,16 +2,57 @@
 @import url(bootstrap-4.0.0-alpha.5-dist/css/bootstrap-flex.min.css);
 <style>
 
-.right, .left{
-    overflow: hidden;
-    overflow-y:scroll;
+
+@font-face {
+    font-family: IBMPlexSans;
+    src: url(../fonts/IBMPlexSans-Regular.otf);
+}
+
+@font-face {
+    font-family: IBMPlexSansBold;
+    src: url(../fonts/IBMPlexSans-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: IBMPlexSansLight;
+    src: url(../fonts/IBMPlexSans-Light.otf);
+    font-weight: thin;
+}
+
+.navbar {
+    background-color:coral; /*was cornflowerblue or lightcoral*/
+    border:none;
+}
+
+
+#projectNavbar {
+    font-family: IBMPlexSansLight;
+    background-color: white;
+    text-decoration-color: #1DA1F2;
+    border: none;
+}
+
+#aboutNavbar{
+    font-family: IBMPlexSansLight;
+    background-color: cornflowerblue;
+    border: none;
+}
+.navbar h4 {
+    font-family: IBMPlexSansLight;
+    color: white;
     
 }
 
+.navbar h5 {
+    font-family: IBMPlexSansLight;
+    color: white;
+}
 
 .carousel-control-prev{
     color: black;
 }
+
 
 .carousel-control-next-icon{
     color: black;
@@ -21,52 +62,123 @@
     margin:0 auto;
 }
 
-.projectLink{
+.whiteBulletList ul, li {
+    color: white;  
+}
+
+
+#mePreview{
+    background-color:coral; /*or cornflowerblue, or lightcoral*/
+}
+#mePreview h1{
+    font-family: IBMPlexSans;
+    color: white;
+    font-size: 6.0vw;
+    font-weight:bold;
+    text-decoration: underline;
+    text-decoration-color: #1C57AD;
+}
+#mePreview h2{
+    font-family: IBMPlexSans;   
+    color: white;
+    font-size: 2.5vw;
+}
+
+#exquisitePreview h4{
+    font-family: IBMPlexSans;
+    color:black;
+    opacity: 0.5;
+    font-size: 2.0vw
+}
+#exquisitePreviewLink{
+    font-family: IBMPlexSans;
+    color: black;
+    text-decoration-color: red;
+}
+#exquisitePreview h1{
+    font-family: IBMPlexSans;
+    font-size:4.0vw;
+    color:black
+}
+#exquisitePreview h2{
+    font-size: 2.0vw;
+    color: black;
     
 }
+#exquisitePreview h3{
+    font-size:1.5vw;
+    color: black;
+}
 
-.project {
+
+#philanthrobotPreview{
+    background-color:#1DA1F2
+}
+#philanthrobotPreview h1{
+    font-family: IBMPlexSans;
+    font-size:4.0vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+#philanthrobotPreview h2{
+    font-family: IBMPlexSans;
+    font-size: 2.0vw;
+    color: white;
+}
+
+#philanthrobotPreview h3{
+    font-family: IBMPlexSans;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.philanthrobot h1 .philanthrobot h2 {
+    font-family: IBMPlexSans;
+    color: #1DA1F2;
+}
+
+.philanthrobot h6{
+    font-family: IBMPlexSans;
+    color: grey
+}
+
+p {
+    font-size: 2.0vh;
+}
+
+h6 {
+    font-size: 2.0vh;
+}
+
+h5 {
+    font-size: 2.5vh;
+}
+
+.fixImage {
+    position:absolute;
+    bottom: 0px;
+    left: 0%;
+}
+.aboutMe h1, h2, h3, h4, h5, h6, p{
+    font-family: IBMPlexSans;
+    color: white;
+}
+
+/*h4 for emoji bullet list*/
+
+.aboutMe h4{
+    line-height: 40px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: IBMPlexSans;
+}
+
+.right, .left{
+    overflow: hidden;
+    overflow-y:scroll;
     
 }
-
-#project1{
-    
-}
-
-#project2{
-    
-}
-
-#project3{
-    
-}
-
-/* parallax section */
-#section1{
-    z-index:1;
-    color: #fff;
-    height: 100vh;
-}
-/* parallax background*/
-#section1 .parallax-layer-back {
-    background: url("exquisite.jpeg")no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-/* section w/dummy content*/
-#section2 {
-    z-index: 2;
-    position: relative;
-    background: #fff;
-    width:100%;
-}
-
-h1{
-    color: cadetblue;
-}
-
 /* cadetblue for clicked links?*/
 
 /* turn off parallax scrolling for tablets and phones, adjust pixels as needed 
