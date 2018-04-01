@@ -6,12 +6,12 @@
 @font-face {
     font-family: IBMPlexSans;
     /*src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Regular.otf);*/
-    src: url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.eot');
-    src: url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.woff2') format('woff2'),
-        url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.woff') format('woff'),
+    src: url('IBMPlexSans-Regular.eot');
+    src: url('IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IBMPlexSans-Regular.woff2') format('woff2'),
+        url('IBMPlexSans-Regular.woff') format('woff'),
         url('../fonts/IBMPlexSans-Regular.ttf') format('truetype'),
-        url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.svg#IBMPlexSans-Regular') format('svg');
+        url('IBMPlexSans-Regular.svg#IBMPlexSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
