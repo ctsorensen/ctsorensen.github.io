@@ -10,7 +10,7 @@
     src: url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
         url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.woff2') format('woff2'),
         url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.woff') format('woff'),
-        url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.ttf') format('truetype'),
+        url('../fonts/IBMPlexSans-Regular.ttf') format('truetype'),
         url('/ctsorensen.github.io/fonts/IBMPlexSans-Regular.svg#IBMPlexSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
