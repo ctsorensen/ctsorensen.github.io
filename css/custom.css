@@ -1,44 +1,31 @@
 /* First, pull in Bootstrap */
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,700');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 <style>
 
 /*
 @font-face {
     font-family: IBMPlexSans;
-    src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Regular.otf);OLD SRC
-    src: url('IBMPlexSans-Regular.eot');
-    src: url('IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('IBMPlexSans-Regular.woff2') format('woff2'),
-        url('IBMPlexSans-Regular.woff') format('woff'),
-        url('../fonts/IBMPlexSans-Regular.ttf') format('truetype'),
-        url('IBMPlexSans-Regular.svg#IBMPlexSans-Regular') format('svg');
+    src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Regular.otf);
     font-weight: normal;
-    font-style: normal;
-}
-*/
-@font-face {
-    font-family: 'IBMPlexSans';
-    src: url('ibmplexsans-regular-webfont.eot');
-    src: url('ibmplexsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ibmplexsans-regular-webfont.woff2') format('woff2'),
-         url('ibmplexsans-regular-webfont.woff') format('woff'),
-         url('ibmplexsans-regular-webfont.ttf') format('truetype'),
-         url('ibmplexsans-regular-webfont.svg#ibm_plex_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
+
 @font-face {
-    font-family: IBMPlexSansBold;
+    font-family: 'IBMPlexSansBold';
     src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Bold.otf);
     font-weight: bold;
 }
 
 @font-face {
-    font-family: IBMPlexSansLight;
-    src: url(/ctsorensen.github.ioo/fonts/IBMPlexSans-Light.otf);
+    font-family: 'IBMPlexSansLight';
+    src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Light.otf);
     font-weight: thin;
+}
+*/
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .navbar {
@@ -48,26 +35,20 @@
 
 
 #projectNavbar {
-    font-family: IBMPlexSansLight;
     background-color: white;
-    text-decoration-color: #1DA1F2;
     border: none;
-    text-decoration
 }
 
 #aboutNavbar{
-    font-family: IBMPlexSansLight;
     background-color: cornflowerblue;
     border: none;
 }
 .navbar h4 {
-    font-family: IBMPlexSansLight;
     color: white;
     
 }
 
 .navbar h5 {
-    font-family: IBMPlexSansLight;
     color: white;
 }
 
@@ -94,7 +75,6 @@
 /*or cornflowerblue, or lightcoral*/
 }
 #mePreview h1{
-    font-family: IBMPlexSans;
     color: white;
     font-size: 6.0vw;
     font-weight:bold;
@@ -105,24 +85,20 @@
 
 }
 #mePreview h2{
-    font-family: IBMPlexSans;   
     color: white;
     font-size: 2.5vw;
 }
 
 #exquisitePreview h4{
-    font-family: IBMPlexSans;
     color:black;
     opacity: 0.5;
     font-size: 2.0vw
 }
 #exquisitePreviewLink{
-    font-family: IBMPlexSans;
     color: black;
     text-decoration-color: red;
 }
 #exquisitePreview h1{
-    font-family: IBMPlexSans;
     font-size:4.0vw;
     color:black;
     text-decoration-color: red;
@@ -148,32 +124,27 @@
     background-color:#1DA1F2
 }
 #philanthrobotPreview h1{
-    font-family: IBMPlexSans;
     font-size:4.0vw;
     color: white;
     text-decoration: underline white;
 }
 #philanthrobotPreview h2{
-    font-family: IBMPlexSans;
     font-size: 2.0vw;
     color: white;
     text-decoration: underline white;
 }
 
 #philanthrobotPreview h3{
-    font-family: IBMPlexSans;
     font-size: 1.5vw;
     color: white;
     text-decoration-color: red;
 }
 
 .philanthrobot h1 .philanthrobot h2 {
-    font-family: IBMPlexSans;
     color: #1DA1F2;
 }
 
 .philanthrobot h6{
-    font-family: IBMPlexSans;
     color: grey
 }
 
@@ -195,7 +166,6 @@ h5 {
     left: 0%;
 }
 .aboutMe h1, h2, h3, h4, h5, h6, p{
-    font-family: IBMPlexSans;
     color: white;
 }
 
@@ -204,9 +174,7 @@ h5 {
 .aboutMe h4{
     line-height: 40px;
 }
-h1,h2,h3,h4,h5,h6,p{
-    font-family: IBMPlexSans;
-}
+
 
 .right, .left{
     overflow: hidden;
