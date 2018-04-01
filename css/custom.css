@@ -6,8 +6,8 @@
 @font-face {
     font-family: IBMPlexSans;
     /*src: url(/ctsorensen.github.io/fonts/IBMPlexSans-Regular.otf);*/
-    src: url('ibmplexsans-regular-webfont.woff2') format('woff2'),
-         url('ibmplexsans-regular-webfont.woff') format('woff');
+    src: url('../ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('../ibmplexsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
