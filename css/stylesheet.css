@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'ibm_plex_sansregular';
     src: url('ibmplexsans-regular-webfont.eot');
-    src: url('ibmplexsans-regular-webfont.eot') format('embedded-opentype'),
+    src: url('ibmplexsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('ibmplexsans-regular-webfont.woff2') format('woff2'),
          url('ibmplexsans-regular-webfont.woff') format('woff'),
          url('ibmplexsans-regular-webfont.ttf') format('truetype'),
