@@ -24,56 +24,39 @@
 }
 */
 
-h1,h2,h3,h4,h5,h6,p{
-    font-family: 'IBM Plex Sans', sans-serif;
+
+
+
+
+
+body {
+    font-family: 'IBM Plex Sans';
 }
 
-.navbar {
+.orangeNavbar {
+    font-family: 'IBM Plex Sans';
     background-color:coral; /*was cornflowerblue or lightcoral*/
     border:none;
 }
 
-
 #projectNavbar {
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: white;
     border: none;
 }
 
 #aboutNavbar{
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: cornflowerblue;
     border: none;
 }
-.navbar h4 {
-    color: white;
-    
-}
-
-.navbar h5 {
-    color: white;
-}
-
-.carousel-control-prev{
-    color: black;
-}
-
-
-.carousel-control-next-icon{
-    color: black;
-}
-
-.img-fluid{
-    margin:0 auto;
-}
-
-.whiteBulletList ul, li {
-    color: white;  
-}
-
 
 #mePreview{
     background-color:coral;
+    font-family: 'IBM Plex Sans'
 /*or cornflowerblue, or lightcoral*/
 }
+
 #mePreview h1{
     color: white;
     font-size: 6.0vw;
@@ -87,6 +70,10 @@ h1,h2,h3,h4,h5,h6,p{
 #mePreview h2{
     color: white;
     font-size: 2.5vw;
+}
+
+#exquisitePreview {
+    font-family: 'IBM Plex Sans';
 }
 
 #exquisitePreview h4{
@@ -119,19 +106,22 @@ h1,h2,h3,h4,h5,h6,p{
     
 }
 
+#exquisite {
+    font-family: 'IBM Plex Sans'
+}
+
 
 #philanthrobotPreview{
+    font-family: 'IBM Plex Sans';
     background-color:#1DA1F2
 }
 #philanthrobotPreview h1{
     font-size:4.0vw;
-    color: white;
-    text-decoration: underline white;
+    color: white;    
 }
 #philanthrobotPreview h2{
     font-size: 2.0vw;
     color: white;
-    text-decoration: underline white;
 }
 
 #philanthrobotPreview h3{
@@ -140,12 +130,23 @@ h1,h2,h3,h4,h5,h6,p{
     text-decoration-color: red;
 }
 
-.philanthrobot h1 .philanthrobot h2 {
-    color: #1DA1F2;
+#philanthrobot {
+    font-family: 'IBM Plex Sans';
 }
 
-.philanthrobot h6{
+#philanthrobot h1, 
+#philanthrobot h2 {
+    color: #1DA1F2;
+}
+#philanthrobot h6{
     color: grey
+}
+
+#philanthrobot h3,
+#philanthrobot h4,
+#philanthrobot h5,
+#philanthrobot p{
+    color: black;
 }
 
 p {
@@ -160,27 +161,40 @@ h5 {
     font-size: 2.5vh;
 }
 
+h4 {
+    font-size: 3.0vh;
+}
 .fixImage {
     position:absolute;
     bottom: 0px;
     left: 0%;
 }
-.aboutMe h1, h2, h3, h4, h5, h6, p{
+
+#aboutMe h1,
+#aboutMe h2,
+#aboutMe h3,
+#aboutMe h4,
+#aboutMe h5,
+#aboutMe h6,
+#aboutMe p{
     color: white;
 }
 
 /*h4 for emoji bullet list*/
 
-.aboutMe h4{
+#aboutMe h4{
     line-height: 40px;
 }
 
 
-.right, .left{
-    overflow: hidden;
-    overflow-y:scroll;
-    
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D3D3D3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D3D3D3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
 /* cadetblue for clicked links?*/
 
 /* turn off parallax scrolling for tablets and phones, adjust pixels as needed 
