@@ -25,9 +25,10 @@
 */
 
 
-
-
-
+html {
+    /*font-size: 16px;*/
+    font-size: 100%;
+}
 
 body {
     font-family: 'IBM Plex Sans';
@@ -59,7 +60,7 @@ body {
 
 #mePreview h1{
     color: white;
-    font-size: 6.0vw;
+    font-size: 4.0em;
     font-weight:bold;
     text-decoration: underline;
     text-decoration-color: #1C57AD;
@@ -69,7 +70,7 @@ body {
 }
 #mePreview h2{
     color: white;
-    font-size: 2.5vw;
+    font-size: 1.5em;
 }
 
 #exquisitePreview {
@@ -79,28 +80,28 @@ body {
 #exquisitePreview h4{
     color:black;
     opacity: 0.5;
-    font-size: 2.0vw
+    font-size: 1em;
 }
 #exquisitePreviewLink{
     color: black;
     text-decoration-color: red;
 }
 #exquisitePreview h1{
-    font-size:4.0vw;
+    font-size:3.0em;
     color:black;
     text-decoration-color: red;
     -webkit-text-decoration-color: red;
     -moz-text-decoration-color: red;
 }
 #exquisitePreview h2{
-    font-size: 2.0vw;
+    font-size: 1.25em;
     color: black;
     -webkit-text-decoration-color: red;
     text-decoration-color: red;
     -moz-text-decoration:  red;
 }
 #exquisitePreview h3{
-    font-size:1.5vw;
+    font-size:1.125em;
     color: black;
     -webkit-text-decoration-color: red;
     -moz-text-decoration-color: red;
@@ -117,16 +118,16 @@ body {
     background-color:#1DA1F2
 }
 #philanthrobotPreview h1{
-    font-size:4.0vw;
+    font-size:3.0em;
     color: white;    
 }
 #philanthrobotPreview h2{
-    font-size: 2.0vw;
+    font-size: 1.25em;
     color: white;
 }
 
 #philanthrobotPreview h3{
-    font-size: 1.5vw;
+    font-size: 1.125em;
     color: white;
     text-decoration-color: red;
 }
@@ -151,25 +152,21 @@ body {
 }
 
 p {
-    font-size: 2.0vh;
+    font-size: 1.1em;
 }
 
 h6 {
-    font-size: 2.0vh;
+    font-size: 1.1em;
 }
 
 h5 {
-    font-size: 2.5vh;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-size: 3.0vh;
+    font-size: 1.5em;
 }
-.fixImage {
-    position:absolute;
-    bottom: 0px;
-    left: 0%;
-}
+
 
 #aboutMe h1,
 #aboutMe h2,
@@ -182,11 +179,9 @@ h4 {
 }
 
 /*h4 for emoji bullet list*/
-
 #aboutMe h4{
     line-height: 40px;
 }
-
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D3D3D3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
@@ -196,17 +191,4 @@ h4 {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D3D3D3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
-/* cadetblue for clicked links?*/
-
-/* turn off parallax scrolling for tablets and phones, adjust pixels as needed 
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-
-body, html {
-    height:100%;
-}
-*/
 </style>

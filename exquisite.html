@@ -46,7 +46,7 @@
 <b><p>Case Study: Human-Centered Design, iOS Development, Sketch</p></b>
 <p>The original Exquisite project was for UCSD’s Usability and Information Architecture class. Originally created in a 5-week sprint with a multidisciplinary team, it has since been redesigned. In between work and classes, I taught myself iOS development to build this app and better understand mobile development. It's scheduled to release in the fall!</p>
 <br /> 
-<center><img src="/img/mockup.png" style="max-height:750px"></center>
+<center><img src="/img/mockup.png" style="max-height:750px" class="img-fluid"></center>
  <h1>The First Prototype</h1><br />
             
     <h6>Problem it addressed:</h6> <p>Users define unknown words only to forget them afterwards.</p>
@@ -55,26 +55,44 @@
     <br />
     <h6>Our implementation:</h6> <p>A mobile vocabulary app that uses contextual action to define and save words. Select an unknown word and 'share' it to Exquisite share/action extension wherein it is defined and added to a studylist. From there, the app  sends notifications to remind the user to study or recall the word definition.</p>
     <br />
-            
+            </div>
+            <div class="col-sm-2"></div>
+      </div>
 <div class="row">
     <!--First Prototype (home screen)-->
-    <div class="col-sm-4"><iframe width="438" height="930" src="//invis.io/QU8AW506P" frameborder="0" allowfullscreen style="transform: scale(0.6);"></iframe></div>
-            
-    <div class="col-sm-8"><h5>The First Prototype</h5><p> <i>Interact with it!</i><br /><br>
+    <div class="col-sm-5">
+        <center><div style="position:relative; padding-bottom:0%; width:307px; height:681px;
+                    "><iframe width="438" height="930" src="//invis.io/QU8AW506P" frameborder="0" allowfullscreen style="transform: scale(0.7); transform-origin:top;"></iframe></div></center>
+        <h1></h1>
+    </div>    
+    <div class="col-sm-7">
+        <div class="container">
+        <h5>The First Prototype</h5><p> <i>Interact with it!</i><br /><br>
                 
-    This prototype features the home screen. It tests the core dictionary interaction. Tap a word to toggle its definition. Above "my list" are other vocabulary lists. Tap 'music' to toggle the music list. At the top you will see the most nebulous and unobvious search bar fathomable. At the bottom is a "study" button which originally brought the current list to flashcard form. It wasn't obvious where exactly which list was going to be 'studied'. </p></div>
+    This prototype features the home screen. It tests the core dictionary interaction. Tap a word to toggle its definition. Above "my list" are other vocabulary lists. Tap 'music' to toggle the music list. At the top you will see the most nebulous and unobvious search bar fathomable. At the bottom is a "study" button which originally brought the current list to flashcard form. It wasn't obvious where exactly which list was going to be 'studied'.         </p>
+        </div>
+    </div>
  
 </div>
             
 <!--Final Class Prototype-->
 <div class="row">
-    <div class="col-xl-6"><iframe width="375" height="667" src="https://xd.adobe.com/embed/259bae90-811e-420d-590f-ee164ab95c02-53aa/" frameborder="0" allowfullscreen  style="transform: scale(0.6);"></iframe></div>
-    <div class="col-sm-6"><div class="container">
+    <div class="col-sm-5">
+        <center><div style="position:relative; padding-bottom:0%; width:307px; height:681px;
+                    "><iframe width="375" height="667" src="https://xd.adobe.com/embed/259bae90-811e-420d-590f-ee164ab95c02-53aa/" frameborder="0" allowfullscreen  style="transform: scale(0.8); transform-origin: top;"></iframe></div></center>
+    </div>
+    <div class="col-sm-7"><div class="container">
         <h5>Final Class Prototype</h5>
-            <p>This prototype was built with Adobe XD, hence the different iframe embed border! This particular prototype is linear. It was designed for a final presenation walkthrough. To get started, click "Exquisite" and then "share". <br />
+            <p>
+                Interact with it!<br />
+                This prototype was built with Adobe XD, hence the different iframe embed border! This particular prototype is linear. It was designed for a final presenation walkthrough. To get started, click "Exquisite" and then "share". <br />
             </p>
             </div></div>
 </div>
+<div class="row">
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+
             
     <h6>Muddled Vision:</h6> 
             <p>
@@ -146,19 +164,53 @@
                 <br />
             <h5>Goal 1: Effortlessly Learn Words</h5>
                 <h6></h6>
-                <h6>First Implementation: Context Keyboard</h6><p>We can learn without studying through <strong>context</strong>.
-                The Context Keyboard leverages contextual learning. It analyzes the context of what you type and suggests a word that makes sense from your Exquisite list in the QuickType bar. Using a word in context is an effective way to learn it!</p>
+                <h6>First Implementation: Context Keyboard</h6><p>
+                We already learn vocabuary words without studying. How? Through context! The Context Keyboard uses the context of sentences that you type to teach your vocabulary words. It analyzes the context of what you type and suggests a word that makes sense from your Exquisite list in the QuickType bar. Using a word in context is an effective way to learn it!</p>
                 <br /><br>
-<img src="http://placehold.it/650x250" alt="..." class="img-fluid">
-                <br /><br>
-                <p>Type as normal, when the keyboard recognizes a context in which one of your vocabulary words fits, it will suggest it to you in green with a subtle audible “pop”. Tap the word to see the definition and ensure the word makes sense in the context and for a brief ‘study moment’. If it does, tap it again to insert the word. Else, tap above the keyboard to dismiss.</p>
-                <br /><br>
-<img src="http://placehold.it/650x250" alt="..." class="img-fluid">
-                <br /><br>
-                <p>I found that most users use the standard iOS keyboard. Hence, the Context Keyboard is designed to look and feel like the standard Apple iOS keyboard, but with the functionality of contextual vocabulary learning augmenting the standard QuickType bar. Users lack patience with different keyboards. Therefore, it must work flawlessly. No slowdowns nor crashes, else the user will abandon it.</p>
-            <br /><br>
+                <center><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img style="max-height:400px" class="img-fluid" src="/img/exquisite/Keyboard%201.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img style="max-height:400px" class="img-fluid" src="/img/exquisite/Keyboard%202.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img style="max-height:400px" class="img-fluid" src="/img/exquisite/Keyboard%203.png" alt="Third slide">
+                                </div>
+                                
+                              </div>
+                              
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+</div></center>
 
-                <p>But It’s unlikely that a user will learn all of their vocabulary words with the Context Keyboard. Exquisite tracks usage metrics for each word and feeds them through an algorithm to emphasize unused and unknown words in Microquiz Notifications. </p>
+                <br /><br>
+                
+                    <ol>
+                        <li>Type as normal, when the keyboard recognizes a context in which one of your vocabulary words fits, it will suggest it to you in green with a subtle audible “pop”.</li>
+                        <li>Tap the word to see the definition (it scrolls) and ensure the word makes sense in the context and for a brief ‘study moment’.</li>
+                        <li>If the word makes sense, tap it again to insert the word. Else, tap above the keyboard to dismiss.</li>
+                    </ol>
+                    
+                <br /><br>
+<img src="http://placehold.it/650x250" alt="..." class="img-fluid">
+                <br /><br>
+                <p>Most users use the standard iOS keyboard. Hence, the Context Keyboard is designed to look and feel like the standard Apple iOS keyboard, but with the functionality of contextual vocabulary learning augmenting the standard QuickType bar. I found during interviews that users lack patience with different keyboards. Therefore, the keyboard must work flawlessly. No slowdowns nor crashes, else the user will abandon it.</p>
+            <br /><br>
+                <p>But It’s unlikely that a user will learn all of their vocabulary words with the Context Keyboard. Exquisite tracks usage metrics for each word and feeds them to an algorithm that prioritizes unused and unknown words for Microquiz Notifications. </p>
                 <br />
                 
 
@@ -168,10 +220,9 @@
                <p> No need to open the app. Microquizzes are completed in the notification center. But they don't interrupt you. No sound, no vibration. They are designed to be <i>not annoying</i>. Microquiz notifications are integral to the app, and are thoughtfully designed as such.</p>
                 <br />
                 
-                
-            </div>
-            </div>
-            <div class = "col-sm-2"></div>
+</div>
+</div>               
+
 <div class = "row">
     <div class = "col-sm-2"></div>
     <div class = "col-sm-8">
@@ -249,15 +300,14 @@
                   <div class="card-body">
                       <div class = "row">
                       <div class = "col-sm-6">
-                          <div class = "container">
+                          <div class = "container" style="padding-right:0px">
                             Active recall is a more difficult and more effective learning mechanism.
                             <br />
                             In the span of a few seconds...
                             <ol>
                               <li>User taps and holds notification banner. </li>
                               <li>User types their answer definition into a custom keyboard textfield.</li>
-                              <li>Feedback notification. User answer is saved.</li>
-                              <li>User indicates knowledge of word.</li>
+                              <li>Feedback notification. User answer is saved.User indicates knowledge of word.</li>
                                 <li>No further feedback notifications as it is too time consuming. These are meant to be quick tasks.</li>
                                 
                               </ol>
@@ -304,7 +354,7 @@
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       True/False
                     </button>
                   </h5>
@@ -313,7 +363,7 @@
                   <div class="card-body">
                       <div class="row">
                           <div class = "col-sm-6">
-                              These are less effective, but are quick come in bunches.
+                              These are less effective, but are quick and come in bunches.
                                  <ol>
                               <li>User taps and holds notification banner.</li>
                               <li>User answers multiple choice question.</li>
@@ -374,7 +424,7 @@
         
         <h4>Subsection</h4>
         <p>
-        Each exquisite vocabulary word has a mastery rating. This is a metric of how well the user knows each word: Know, Kind of Know, Don't Know. These ratings can be changed by tapping the emoji. Exquisite's Mastery ratings, micro quiz scores, and context keyboard usage informs the user about what to focus on.
+        Each exquisite vocabulary word has a mastery rating: Know, Kind of Know, or Don't Know. This is a metric of how well the user knows each word. These ratings can be changed by tapping the emoji. Exquisite's Mastery ratings, micro quiz scores, and context keyboard usage informs which words are used in microquiz notifications as well as the type and frequency of those notifications.
                 
         
         <h5>Lists Reworked</h5>
@@ -393,6 +443,9 @@
                 <br /> <br>  
         
         <h4>Monetization</h4>
+        <p>
+        The app will be monetized through in-app purchases of curated word lists. For example, the GRE study list will include about 1000 curated and defined vocabulary words. Free curated lists will also be available.
+        </p>
         
         <h4> Flashcards </h4>
         <p>
