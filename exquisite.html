@@ -47,10 +47,10 @@
 <hr style="background-color:darkgrey">
 <p>Originally created in a 5-week sprint with a multidisciplinary team, this iOS app has since been redesigned. In between work and classes, I taught myself iOS development to build this app and better understand mobile development. It's scheduled to release in the fall!</p>
 <br /> 
-<center>
-    <div style="position:relative; padding-bottom:0%; width:307px; height:681px;
-                    "><iframe align="middle" width="438" height="930" src="//invis.io/A7IRZ6ENZU5" frameborder="0" allowfullscreen style="transform: scale(0.7); transform-origin:top;"></iframe></div>
-    </center>
+
+    <center><div style="position:relative; padding-bottom:0%; width:307px; height:681px;">
+        <iframe align="middle" width="438" height="930" src="//invis.io/2WISNJIX8CV" frameborder="0" allowfullscreen style="transform: scale(0.7); transform-origin:top;"></iframe>
+    </div></center>
 <br>
  <h2>Original Vision</h2><br />
             
@@ -73,10 +73,19 @@
         <h1></h1>
     </div>    
     <div class="col-sm-7">
-        <div class="container">
+        <div class="container" style="padding:30px">
         <h5>The First Prototype</h5><p> <i>Interact with it!</i><br /><br>
-                
-    This prototype features the home screen. It tests the core dictionary interaction. Tap a word to toggle its definition. Above "my list" are other vocabulary lists. Tap 'music' to toggle the music list. At the top you will see the most nebulous and unobvious search bar fathomable. At the bottom is a "study" button which originally brought the current list to flashcard form. It wasn't obvious where exactly which list was going to be 'studied'.         </p>
+    
+    This prototype features the home screen. It tests the core dictionary interaction which largely remains. 
+            <ul style="padding-left:0px">
+           <li> Tap a word to toggle its definition. The part of speech, definition, and example sentence are displayed below. Tap again to dismiss. This core interaction remains in the latest prototype. </li>
+            
+           <li> Above "my list" are other vocabulary lists. Tap 'music' to toggle the music list. Words from the music list are displayed. Words from other lists are blurred. </li>
+            
+           <li> At the top you will see the most nebulous and unobvious search bar fathomable. Prototypes aren't always pretty!
+            </li>
+           <li> At the bottom is a "study" button which originally brought the current list to flashcard form. The study function was embedded into the lists themselves which freed up valuable screen space.</li>
+            </ul>
         </div>
     </div>
  
@@ -91,9 +100,16 @@
     <div class="col-sm-7"><div class="container">
         <h5>Final Class Prototype</h5>
             <p>
-                Interact with it!<br />
-                This prototype was built with Adobe XD, hence the different iframe embed border! This particular prototype is linear. It was designed for a final presenation walkthrough. To get started, click "Exquisite" and then "share". <br />
-            </p>
+                <i>Interact with it!</i><br /><br>
+                This prototype was built with Adobe XD, hence the different iframe embed border! This prototype is linear. To get started, click "Exquisite" and then "share". The beginning demonstrates contextual word defining. From there, you can see the actual app screens. </p>
+                <ul style="padding-left:0px">
+                <li>The visual design is intentionally clean and simple, but undeveloped at this stage. The main page features a self-evident "Recently Added" section. This section was later omitted for simplicity, instead replaced by a sorting function.</li>
+                <li>This prototype features all lists on one page. This was changed for simplicity. Different Lists are now toggled through underlined title text at the top of the screen.
+                </li>
+                <li>The search bar in this prototype is always present in the list view, but was hidden in later versions. Now, swipe down on the word list to reveal the search bar.</li>
+                <li>The three ellipse "more functions" button was introduced in this prototype. This is where edit and delete functions lie. In the latest prototype, they are also accessible by swiping left.</li>
+                </ul>
+            
             </div></div>
 </div>
 <div class="row">
@@ -138,8 +154,8 @@
     <h5><b>Product Value Proposition:</b> With Exquisite you can seamlessly curate and effortlessly learn vocabulary.</h5><br><br>
 <br /> 
 
-<p><b>Translating Value Proposition into Design Goals</b></p>
-<p>Achieve these goals and the value proposition is fulfilled. The minimal viable product must achieve each.</p> 
+<h5><b>Translating Value Proposition into Design Goals</b></h5>
+<p>Achieve these goals and the value proposition is fulfilled. Minimal Viable Product achieves each.</p> 
 <ol>
     <li> <p>Seamlessly Curate Words</p></li>
         <ul>
@@ -160,19 +176,19 @@
 
             <h2>Implementation</h2>
             
-            <h5>Behind it all.</h5>
-            <p>The Mastery system. It underlies</p>
                 <br />
-            <h5>Goal 1: Effortlessly Learn Words</h5>
-                <h6></h6>
-                <h6>First Implementation: Context Keyboard</h6><p>
+            <h5>Goal 1: Effortlessly Learn Words</h5><br>
+                <h6><b>First Implementation: Mastery System</b></h6><p>
+                The mastery system is a reflection of how well the user knows their words. Each word has three ratings: don't know 👎 , somewhat know👌, and mastered 👍. Each list has a mastery % which is calculated by how well the user has mastered each word in the list. The Mastery system not only informs the user what they need to learn, but also informs the Exquisite app as to what it needs to teach the user.
+    </p><br>
+                <h6><b>Second Implementation: Context Keyboard</b></h6><p>
                 We already learn vocabuary words without studying. How? Through context! The Context Keyboard uses the context of sentences that you type to teach your vocabulary words. It analyzes the context of what you type and suggests a word that makes sense from your Exquisite list in the QuickType bar. Using a word in context is an effective way to learn it!</p>
                 <br /><br>
-                <center><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                <center><div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="false">
                               <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
                                 
                               </ol>
                               <div class="carousel-inner">
@@ -188,11 +204,11 @@
                                 
                               </div>
                               
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                               </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
@@ -214,9 +230,8 @@
                 
 
                 
-        <h5>Second Implementation: Microquiz Notifications </h5>
-            <p><b>Exquisite's notifications are microquizzes that you do on your time.</b></p>
-               <p> No need to open the app. Microquizzes are completed in the notification center. But they don't interrupt you. No sound, no vibration. They are designed to be <i>not annoying</i>. Microquiz notifications are integral to the app, and are thoughtfully designed as such.</p>
+        <h6><b>Third Implementation: Microquiz Notifications </b></h6>
+            <p><i>Exquisite's notifications are microquizzes that you do on your time.</i> No need to open the app. Microquizzes are completed in the notification center. But they don't interrupt you. No sound, no vibration. <i>They are designed to not be annoying</i>. Microquiz notifications are integral to the app, and are thoughtfully designed as such.</p>
                 <br />
                 
 </div>
@@ -250,13 +265,12 @@
                           </div>
                       </div>
                       <div class = "col-sm-6">
-                          <!-- carousel that automatically goes?-->
-                          <center><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <center><div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
                               <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
                               </ol>
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -273,11 +287,11 @@
                                 </div>  
                               </div>
                               
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                               </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
@@ -314,12 +328,12 @@
                         </div>
                     <div class = "col-sm-6">
                         <center>
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
                               <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
                               </ol>
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -335,11 +349,11 @@
                                   <img style="max-height:400px" class="img-fluid" src="/img/quizImages/AR4.png" alt="Fourth slide">
                                 </div>  
                               </div>
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                               </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
@@ -372,12 +386,12 @@
                         </div>
                             <div class = "col-sm-6">
                                 <center>
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
                               <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
                               </ol>
                               <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -393,11 +407,11 @@
                                   <img style="max-height:400px" class="img-fluid" src="/img/quizImages/TF4.png" alt="Fourth slide">
                                 </div>  
                               </div>
-                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                               </a>
-                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
@@ -421,10 +435,6 @@
     <div class = "col-sm-2"></div>
     <div class = "col-sm-8">
         
-        <h4>Subsection</h4>
-        <p>
-        Each exquisite vocabulary word has a mastery rating: Know, Kind of Know, or Don't Know. This is a metric of how well the user knows each word. These ratings can be changed by tapping the emoji. Exquisite's Mastery ratings, micro quiz scores, and context keyboard usage informs which words are used in microquiz notifications as well as the type and frequency of those notifications.
-                
         
         <h5>Lists Reworked</h5>
         <p>
@@ -434,38 +444,33 @@
 
                 Navigating lists has changed too. Before, lists were toggled through search. That was clumsy and confusing. Now, tap the blue list title at the top. Select to view the list or study its flashcards. The list has a triangle dropdown indicator to signify the title's affordance of list changing.
                 <br><br>
-                for old+new: A lot more went into these design decisions, I'd be happy to discuss further... email here:.
+               
         </p>
+        
         <h4> Visual Design</h4>
             <br />
-               <p> The goal for the visual design is to focus on the words. The user's cognitive effort is to be focused on the words, not the interace. That being said, the interface isn't bland like a dictionary page. Each word is on a virtual flashcard for visual relief and to hint at powerful functions. You'll see bits of color to highlight some relevant items and interactions. No function is hidden behind a swipe or gesture without a visual button or hint to accompany it because usability is prioritized. Swipes and gestures are used as accelerators.</p>
+               <p> The goal for the visual design is to focus on the words. The user's cognitive effort is to be focused on the words, not the interace. That being said, the interface isn't as bland as a dictionary page. Each word is on a virtual flashcard for visual relief. You'll see bits of color to highlight some relevant items and interactions. AlsNo function is hidden behind a swipe or gesture without a visual button or hint to accompany it because usability is prioritized. Swipes and gestures are used as accelerators.</p>
                 <br /> <br>  
+        
+        <h4> Flashcards </h4>
+        <center><img src="img/exquisite/landscapeFlashcard.png" class="img-fluid" style="max-height:400px"></center>
+        <p>
+      The more words, the more difficult it is to learn them without studying. And for students who need to learn a large volume quickly, there are flashcards. They aren't annotations, but the mastery system is integrated during studying. The 'eye' icon toggles the viewing mode. Tap the 'eye' and the word is by itself. Tap the card and the definition is on the back. The 'shuffle' icon randomizes the order of the words.
+        </p>
         
         <h4>Monetization</h4>
         <p>
         The app will be monetized through in-app purchases of curated word lists. For example, the GRE study list will include about 1000 curated and defined vocabulary words. Free curated lists will also be available.
-        </p>
+        </p><br /><br>
         
-        <h4> Flashcards </h4>
-        <p>
-       The goal of not needing to study to learn vocabulary was never feasible at scale. The more words, the more difficult it is. That's why there are flashcards. Those with more words to learn can study them with flashcards. Microquiz notifications and the context keyboard can then accelerate their learning. 
-            
-                
-        But the goal was not in vain! In this case, undershooting an intentionally difficult goal improved the product more than meeting and easier goal. I would have never considered the context keyboard if I wasn't thinking in terms of teaching without studying. 
-        </p>
-        
-        <h2> Before and After...</h2>
-      <p>  before: was a product for this. Succeeded here and failed here.
-        Now: A product for this. Suceedes here and fails here.</p>
-        
-        Here it is.
-        
-        <h2> Product Direction</h2>
-        <h3>learnings</h3>
-        - engineering possibilities can constrain design direction. It's important to know the capabilities of the technologies utilized.
-        - intentionally lofty goals can lead to novel solutions
-        <div style="position:relative; padding-bottom:0%; width:307px; height:681px;
-                    "><iframe width="438" height="930" src="//invis.io/A7IRZ6ENZU5" frameborder="0" allowfullscreen style="transform: scale(0.7); transform-origin:top;"></iframe></div>
+
+        <h5>Some Learnings</h5>
+        <ul style="padding-left:0px">
+        <li><p>Engineering capabilities can constrain design direction. It's important to know the capabilities of the technologies utilized. It can dictate anything from major functions to minor styling.</p></li>
+        <li><p>Intentionally lofty goals can lead to novel solutions. These are useful even if not entirely achieved. I accomplished more than I otherwise would have.</p></li>
+        <li><p>Constantly question my assumptions and reasoning behind design decisions.</p></li>
+
+        </ul>
     </div>
     <div class = "col-sm-2"></div>
 </div>

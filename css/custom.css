@@ -115,11 +115,12 @@ body {
 
 #philanthrobotPreview{
     font-family: 'IBM Plex Sans';
-    background-color:#1DA1F2
+    background-color:#1DA1F2;
+    text-decoration-color:#ecd647;
 }
 #philanthrobotPreview h1{
     font-size:3.0em;
-    color: white;    
+    color: white;  
 }
 #philanthrobotPreview h2{
     font-size: 1.25em;
